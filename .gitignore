@@ -1,0 +1,27 @@
+#visual studio code의 설정 파일은 제외 한다.
+
+node_modules/
+.vscode/
+.gradle/
+.settings/
+.bin/
+build/
+temp/
+.doc/
+Debug/
+Release/
+
+.DS_Store
+.classpath
+.project
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
