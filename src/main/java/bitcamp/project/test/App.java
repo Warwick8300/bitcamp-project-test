@@ -1,6 +1,7 @@
 package bitcamp.project.test;
 
 import bitcamp.project.test.service.LessonService;
+import bitcamp.project.test.service.PhotoService;
 
 public class App {
   public String getGreeting() {
@@ -12,5 +13,8 @@ public class App {
     LessonService l = new LessonService();
     l.list();
     System.out.println("** Made By Seung Been Oh **");
+
+    PhotoService photoService = new PhotoService();
+    photoService.list();
   }
 }
