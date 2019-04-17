@@ -1,5 +1,6 @@
 package bitcamp.project.test;
 
+import bitcamp.project.test.service.BoardService;
 import bitcamp.project.test.service.LessonService;
 import bitcamp.project.test.service.MemberService;
 import bitcamp.project.test.service.PhotoService;
@@ -14,6 +15,11 @@ public class App {
   public static void main(String[] args) {
 
 
+    System.out.println("------------------------");
+    BoardService boardService = new BoardService();
+    boardService.list();
+    System.out.println("------------------------");
+
     System.out.println("** Made By Seung Been Oh **");
     LessonService l = new LessonService();
     l.list();
@@ -26,7 +32,7 @@ public class App {
     TeamLeaderService s = new TeamLeaderService();
     s.list();
     System.out.println("------------");
- 
+
     MemberService memberService = new MemberService();
     memberService.list();
   }
