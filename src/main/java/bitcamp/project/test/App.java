@@ -1,5 +1,6 @@
 package bitcamp.project.test;
 
+import bitcamp.project.test.service.PhotoService;
 import bitcamp.project.test.service.TeamLeaderService;
 
 public class App {
@@ -8,6 +9,8 @@ public class App {
     }
 
     public static void main(String[] args) {
+      PhotoService photoService = new PhotoService();
+      photoService.list();
       System.out.println("------------");
       TeamLeaderService s = new TeamLeaderService();
       s.list();
