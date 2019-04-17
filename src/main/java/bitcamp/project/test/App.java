@@ -5,14 +5,15 @@ package bitcamp.project.test;
 
 import bitcamp.project.test.service.PhotoService;
 
-public class App {
+public class App {        
     public String getGreeting() {
         return "Hello world.";
-    }
-
+    }         
+  
     public static void main(String[] args) {
     	
     	PhotoService photoService = new PhotoService();
     	photoService.list();
     }
-}
+}    
+    
