@@ -14,7 +14,7 @@ public class App {
     LessonService l = new LessonService();
     l.list();
     System.out.println("** Made By Seung Been Oh **");
-
+System.out.println("..");
     PhotoService photoService = new PhotoService();
     photoService.list();
 
